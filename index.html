@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Noise Generator</title>
+  <meta name="description" content="Noise Generators for Sleep">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Noise Generator">
+  <meta property="og:type" content="application">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <meta name="theme-color" content="#fafafa">
+  
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <h1>Sleepytime Noise Generator</h1> 
+    
+
+    <div class="row">
+        <div class="col s12 m5">
+          <div class="card-panel blue">
+            <span class="white-text">
+                <div>White Noise</div>
+                <div class="switch">
+                    <label class="white-text">
+                    Off
+                    <input type="checkbox" id="whiteNoise" name="whiteNoise">
+                    <span class="lever"></span>
+                    On
+                    </label>
+                </div>
+            </span>
+          </div>
+        </div>
+
+        <div class="col s12 m5">
+            <div class="card-panel blue">
+              <span class="white-text">
+
+                <div>Pink Noise</div>
+                <div class="switch">
+                    <label class="white-text">
+                    Off
+                    <input type="checkbox" id="pinkNoise" name="pinkNoise">
+                    <span class="lever"></span>
+                    On
+                    </label>
+                </div>
+
+              </span>
+            </div>
+          </div>
+
+          <div class="col s12 m5">
+            <div class="card-panel blue">
+              <span class="white-text">
+
+                <div>Blue Noise</div>
+                <div class="switch">
+                    <label class="white-text">
+                    Off
+                    <input type="checkbox" id="blueNoise" name="blueNoise">
+                    <span class="lever"></span>
+                    On
+                    </label>
+                </div>
+
+              </span>
+            </div>
+          </div>
+
+          <div class="col s12 m5">
+            <div class="card-panel blue">
+              <span class="white-text">
+
+                <div>Red/Brown Noise</div>
+                <div class="switch">
+                    <label class="white-text">
+                    Off
+                    <input type="checkbox" id="redNoise" name="redNoise">
+                    <span class="lever"></span>
+                    On
+                    </label>
+                </div>
+
+              </span>
+            </div>
+          </div>
+
+          <div class="col s12 m5">
+            <div class="card-panel blue">
+              <span class="white-text">
+
+                <div>Violet Noise</div>
+                <div class="switch">
+                    <label class="white-text">
+                    Off
+                    <input type="checkbox" id="violetNoise" name="violetNoise">
+                    <span class="lever"></span>
+                    On
+                    </label>
+                </div>
+
+              </span>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+  <script src="dnoise.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+<footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sleepytime Noise Generator</h5>
+          <p class="grey-text text-lighten-4">This app makes use of the <a class="white-text" href="https://github.com/DIDAVA/dNoise">DIDAVA/dNoise</a> Library by Farshad Javan. </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 - Derak Kilgo - All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+</html>
